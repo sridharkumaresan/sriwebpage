@@ -689,13 +689,13 @@ nav#top a:nth-child(4) {
 }
 @media only screen and (min-width:1200px) {
     body {
-    background: #11A795  url('../img/bg-view-from-plane.jpg') top center no-repeat;
+    background: #11A795 top center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 }@media only screen and (max-width:1199px) {
     body {
-    background: #11A795  url('../img/bg-view-from-plane-medium.jpg') top center no-repeat;
+    background: #11A795 top center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
