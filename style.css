@@ -156,7 +156,7 @@ table.contact td a{color: #26a3f5;text-decoration: none;}
 	}
 }
 	
-@media only screen and (min-device-width : 320px) and (max-device-width : 510px)
+@media only screen and (max-device-width : 510px)
 { 
 	body{
 		margin: 0;
