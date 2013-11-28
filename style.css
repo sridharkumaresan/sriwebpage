@@ -1,22 +1,22 @@
 	@font-face{
 		font-family:"InvescoInterstateLight";
-		src:url("font/e0c011fe-5df1-4a4a-8d3a-fee305e884eb.eot?iefix") format("eot");}
+		src:url("fonts/e0c011fe-5df1-4a4a-8d3a-fee305e884eb.eot?iefix") format("eot");}
 	@font-face{
 		font-family:"InvescoInterstateLight";
-		src:url("font/e0c011fe-5df1-4a4a-8d3a-fee305e884eb.eot?iefix");
-		src:url("font/323dabff-7b1b-4885-90e0-73ca0042d826.woff") format("woff"),
-			url("font/cd51c674-edee-4606-84be-859e1ababa1b.ttf") format("truetype"),
-			url("font/a1bd068e-af2a-4546-bd1f-b6403293bef4.svg#a1bd068e-af2a-4546-bd1f-b6403293bef4") format("svg");
+		src:url("fonts/e0c011fe-5df1-4a4a-8d3a-fee305e884eb.eot?iefix");
+		src:url("fonts/323dabff-7b1b-4885-90e0-73ca0042d826.woff") format("woff"),
+			url("fonts/cd51c674-edee-4606-84be-859e1ababa1b.ttf") format("truetype"),
+			url("fonts/a1bd068e-af2a-4546-bd1f-b6403293bef4.svg#a1bd068e-af2a-4546-bd1f-b6403293bef4") format("svg");
 	}
 	@font-face{
 		font-family:"InvescoInterstateBold";
-		src:url("font/61b684b6-52dd-4cda-a9af-09cf72b255ba.eot?iefix") format("eot");}
+		src:url("fonts/61b684b6-52dd-4cda-a9af-09cf72b255ba.eot?iefix") format("eot");}
 	@font-face{
 		font-family:"InvescoInterstateBold";
-		src:url("font/61b684b6-52dd-4cda-a9af-09cf72b255ba.eot?iefix");
-		src:url("font/6cd70497-5338-43d7-a5b0-854f3ff84528.woff") format("woff"),
-			url("font/278c7ca3-c826-4001-a97b-ea4c5d4dc909.ttf") format("truetype"),
-			url("font/2233b240-0a72-4c03-a05d-3616328859a3.svg#2233b240-0a72-4c03-a05d-3616328859a3") format("svg");
+		src:url("fonts/61b684b6-52dd-4cda-a9af-09cf72b255ba.eot?iefix");
+		src:url("fonts/6cd70497-5338-43d7-a5b0-854f3ff84528.woff") format("woff"),
+			url("fonts/278c7ca3-c826-4001-a97b-ea4c5d4dc909.ttf") format("truetype"),
+			url("fonts/2233b240-0a72-4c03-a05d-3616328859a3.svg#2233b240-0a72-4c03-a05d-3616328859a3") format("svg");
 	}
 	body{
 		
@@ -121,7 +121,43 @@ table.contact td a{color: #26a3f5;text-decoration: none;}
 	}
 }
 
-@media only screen and (min-width : 320px) and (max-width : 510px) { 
+@media only screen and (min-width : 320px) and (max-width : 510px)
+{ 
+	body{
+		margin: 0;
+	}
+	#mainContainer{
+		margin: 10px 0 0 0;
+	}
+	#contentContainer .employee, #contentContainer .guest{
+		width: 100%;
+	}
+	#contentContainer .button{
+		margin:0 0 10px 0;
+		text-align: center;
+	}
+	#topContainer .logo{
+		margin:5%;
+	}
+	#topContainer h1{
+		font-size: 24px; margin-top: 24px; float: left;
+	}
+	#topContainer h2{
+		float: left;
+	}
+	#bottomContainer{
+		width: 100%;		
+	}
+	#contentContainer div a:after{
+		content: '';
+	}
+	#bottomContainer p{
+		margin: 2%;
+	}
+	}
+	
+@media only screen and (min-device-width : 320px) and (max-device-width : 510px)
+{ 
 	body{
 		margin: 0;
 	}
