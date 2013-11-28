@@ -156,37 +156,3 @@ table.contact td a{color: #26a3f5;text-decoration: none;}
 	}
 }
 	
-@media only screen and (max-device-width : 510px)
-{ 
-	body{
-		margin: 0;
-	}
-	#mainContainer{
-		margin: 10px 0 0 0;
-	}
-	#contentContainer .employee, #contentContainer .guest{
-		width: 100%;
-	}
-	#contentContainer .button{
-		margin:0 0 10px 0;
-		text-align: center;
-	}
-	#topContainer .logo{
-		margin:5%;
-	}
-	#topContainer h1{
-		font-size: 24px; margin-top: 24px; display: inline-block;
-	}
-	#topContainer h2{
-		display: block;
-	}
-	#bottomContainer{
-		width: 100%;		
-	}
-	#contentContainer div a:after{
-		content: '';
-	}
-	#bottomContainer p{
-		margin: 2%;
-	}
-	}
